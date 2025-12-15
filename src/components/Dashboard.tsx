@@ -173,18 +173,18 @@ const Dashboard: React.FC = () => {
               className="flex-1 outline-none text-sm text-gray-700 placeholder-gray-400"
             />
           </div>
-          <div className="flex items-center justify-between rounded-md px-3 py-2 cursor-pointer">
+         <div className="flex items-center justify-between rounded-md px-3 py-2 cursor-pointer">
             <select
               className="flex-1 text-sm border-0 text-gray-500 bg-transparent outline-none appearance-none cursor-pointer"
               defaultValue=""
             >
               <option value="" disabled>
-                Select Location
+                Job Type
               </option>
-              <option value="full-time">Karachi</option>
-              <option value="part-time">Lahore</option>
-              <option value="contract">Islamabad</option>
-              <option value="remote">Peshawar</option>
+              <option value="full-time">Full Time</option>
+              <option value="part-time">Part Time</option>
+              <option value="contract">Contract</option>
+              <option value="remote">Remote</option>
             </select>
 
             <ChevronDown
